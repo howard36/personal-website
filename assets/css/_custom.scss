@@ -1,0 +1,14 @@
+.single {
+  .content {
+    hr {
+      border-top: 1px solid $global-border-color;
+	  border-left: none;
+	  border-right: none;
+      border-bottom: none;
+
+      [theme=dark] & {
+        border-top: 1px solid $global-border-color-dark;
+      }
+    }
+  }
+}
