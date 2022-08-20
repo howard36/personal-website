@@ -234,7 +234,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # Social config about the author
   [params.social]
     GitHub = "Plasma-Vortex"
-    Linkedin = "howard-halim"
+    Linkedin = ""
     Twitter = "HowardHalim"
     Instagram = ""
     Facebook = "howard.halim.58"

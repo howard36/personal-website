@@ -14,15 +14,13 @@ In my free time I like to code up side projects.
 Here are some of my finished projects, with a bit of trivia about how they were made!
 
 ---
+## hi
+### bye
+## hi
+### bye
+---
 
-### Adversarial 2048
-
-[Website](https://www.adversarial2048.com/),
-[Github](https://github.com/Plasma-Vortex/adversarial-2048)
-
-Adversarial 2048 is a spinoff of [2048](https://play2048.co/), modified to be as hard as possible. 
-
-{{< image src="adversarial-2048.png" >}}
+{{< project >}}
 
 ---
 
@@ -39,3 +37,17 @@ website
 
 ### Particle Simulator
 
+## hi
+## bye
+## hi
+## bye
+## hi
+## bye
+## hi
+## bye
+## hi
+## bye
+## hi
+## bye
+## hi
+## bye
