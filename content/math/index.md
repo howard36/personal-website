@@ -1,22 +1,29 @@
 ---
 title: "Math"
 date: 2022-08-10T01:46:22-04:00
-draft: true
+draft: false
 ---
 
 ## Resources
-Here are some of the math handouts I've written.
+Here are the handouts I've written for talks at various math camps.
 
-* [Tangent Circles](tangent-circles.pdf) - 2022 Canada EGMO Training
-* [Graph Theory](graph-theory.pdf) - 2022 Canada Winter Camp
-* [Algorithms](algorithms.pdf) - 2021 Canada Winter Camp
-* [Inversion](inversion.pdf) - 2021 Canada EGMO Training
-* [Spiral Similarity](spiral-similarity.pdf) - 2020 Canada Winter Camp
-* [Power of a Point](power-of-a-point.pdf) - CMS Math Camp 2017
-* [Invariants and Monovariants](invariants-and-monovariants.pdf) - CMS Math Camp 2016
-* [Probability States](probability-states.pdf) - Senior Math Club 2017
-* [Linearity of Expectation](linearity-of-expectation.pdf) - Senior Math Club 2017
-* [Vieta's Formulas](vieta-formulas.pdf) - Senior Math Club 2017
+Canada Winter Camp:
+* [Graph Theory](graph-theory.pdf) - Winter Camp 2022
+* [Algorithms](algorithms.pdf) - Winter Camp 2021
+* [Spiral Similarity](spiral-similarity.pdf) - Winter Camp 2020
+
+Canada EGMO Training:
+* [Tangent Circles](tangent-circles.pdf) - EGMO Training 2022
+* [Inversion](inversion.pdf) - EGMO Training 2021
+
+York University CMS Math Camp:
+* [Power of a Point](power-of-a-point.pdf) - York University CMS Math Camp 2017
+* [Invariants and Monovariants](invariants-and-monovariants.pdf) - York University CMS Math Camp 2016
+
+UTS Senior Math Club:
+* [Probability States](probability-states.pdf) - UTS Senior Math Club 2017
+* [Linearity of Expectation](linearity-of-expectation.pdf) - UTS Senior Math Club 2017
+* [Vieta's Formulas](vieta-formulas.pdf) - UTS Senior Math Club 2017
 
 For other math contest handouts, I recommend:
 * [Evan Chen](https://web.evanchen.cc/olympiad.html)

@@ -1,12 +1,13 @@
 {
   "scripts": {
-    "babel": "npx babel src/js --out-file assets/js/theme.js -w",
+    "dev:babel": "npx babel src/js --out-file assets/js/theme.js -w",
     "dev:css": "npx tailwindcss -i assets/css/input.css -o assets/css/output.css -w",
     "dev:hugo": "hugo server --disableFastRender -D",
-    "dev": "run-p babel dev:*",
+    "dev": "run-p dev:*",
+    "build:babel": "npx babel src/js --out-file assets/js/theme.js",
     "build:css": "NODE_ENV=production npx tailwindcss -i assets/css/input.css -o assets/css/output.css -m",
     "build:hugo": "hugo",
-    "build": "run-s babel build:*"
+    "build": "run-s build:*"
   },
   "devDependencies": {
     "@babel/cli": "^7.18.10",

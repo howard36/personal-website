@@ -12,3 +12,9 @@
     }
   }
 }
+
+.home {
+  .home-profile {
+    @include transform(translateY(10vh));
+  }
+}

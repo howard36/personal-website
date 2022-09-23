@@ -7,11 +7,17 @@ module.exports = {
   theme: {
     extend: {
 	  colors: {
-		themeblue: '#2d96bd',
+		themeblue: {
+		  light: '#bdebfc',
+		  DEFAULT: '#55bde2',
+		  dark: '#2d96bd',
+		},
 		themepink: '#ef3982',
+		themegray: '#a9a9b3',
 	  }
 	},
   },
+  darkMode: 'class',
   plugins: [],
   important: true,
 }

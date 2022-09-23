@@ -1,19 +1,39 @@
-<div class="my-8" id="adversarial-2048">
-	<a href="https://www.adversarial2048.com/"><img class="block max-h-72 mx-auto aspect-square" src="adversarial-2048.png" alt="Adversarial 2048 Image"></a>
-	<h3 class="mb-2 mt-3">
-		<a href="https://www.adversarial2048.com/" class="text-gray-900 text-2xl hover:text-themeblue">Adversarial 2048</a>
-	</h3>
-
-	<div class="">
-		<span class="px-4 py-2 rounded-full text-gray-500 bg-gray-200 font-semibold text-sm align-middle inline-block mb-1 mr-2">Rust
-		</span><span class="px-4 py-2 rounded-full text-gray-500 bg-gray-200 font-semibold text-sm align-middle inline-block mb-1 mr-2">Web Assembly
-		</span><span class="px-4 py-2 rounded-full text-gray-500 bg-gray-200 font-semibold text-sm align-middle inline-block mb-1 mr-2">Javascript</span>
-	</div>
+<div class="mt-6">
+	{{ with .Get "img" }}
+	<a href='{{ $.Get "url" }}'><img class="block max-h-80 mx-auto" src='{{ . }}' alt='{{ $.Get "alt" }}'></a>
+	{{ end }}
+	<h2 class="mb-2 text-2xl text-zinc-900 dark:text-themegray" id='{{ .Get "id" }}'>
+        {{- if .Get "url" -}}
+		<a href='{{ .Get "url" }}' class="text-zinc-900 dark:text-themegray hover:text-themeblue-dark dark:hover:text-white">{{ .Get "title" }}</a>
+        {{- else -}}
+        {{ .Get "title" }}
+        {{- end -}}
+	</h2>
 	<div>
-		<p>A spinoff of <a href="https://play2048.co/">2048</a>, modified to be as hard as possible.</p>
+		{{ $tags := split (.Get "tags") "," }}
+		{{- range $tags -}}
+		<span class="px-4 py-2 rounded-full text-zinc-500 bg-zinc-200 dark:text-zinc-400 dark:bg-zinc-700 font-semibold text-sm align-middle inline-block mb-1 mr-2">{{ . }}</span>
+		{{- end -}}
 	</div>
-	<div class="-ml-2">
-		<a href="https://www.adversarial2048.com/" class="p-2 inline-block"><i class="fa-solid fa-arrow-up-right-from-square text-xl"></i>
-		</a><a href="https://github.com/Plasma-Vortex/adversarial-2048" class="p-2 inline-block"><i class="fa-brands fa-github text-xl"></i></a>
+	<div class='mt-2 {{ if or (or (.Get "website") (.Get "googleplay")) (or (.Get "github") (.Get "code")) }} mb-2 {{ else }} mb-6 {{ end }}'>
+		{{- .Inner -}}
 	</div>
+	{{ if or (or (.Get "website") (.Get "googleplay")) (or (.Get "github") (.Get "code")) }}
+	<div class="-ml-2 mb-4">
+		{{- with .Get "website" -}}
+		<a href="{{ . }}" class="inline-block text-xl text-zinc-900 hover:text-themeblue-dark dark:text-themegray dark:hover:text-white"><i class="m-2 fa-solid fa-arrow-up-right-from-square"></i></a>
+		{{- end -}}
+		{{- with .Get "googleplay" -}}
+		<a href="{{ . }}" class="inline-block text-xl text-zinc-900 hover:text-themeblue-dark dark:text-themegray dark:hover:text-white"><i class="m-2 fa-brands fa-google-play"></i></a>
+		{{- end -}}
+		{{- with .Get "github" -}}
+		<a href="{{ . }}" class="inline-block text-xl text-zinc-900 hover:text-themeblue-dark dark:text-themegray dark:hover:text-white"><i class="m-2 fa-brands fa-github"></i></a>
+		{{- end -}}
+		{{- with .Get "code" -}}
+		<a href="{{ . }}" class="inline-block text-xl text-zinc-900 hover:text-themeblue-dark dark:text-themegray dark:hover:text-white"><i class="m-2 fa-solid fa-code"></i></a>
+		{{- end -}}
+	</div>
+	{{ end }}
 </div>
+
+<hr class="mt-6 mb-9"/>
