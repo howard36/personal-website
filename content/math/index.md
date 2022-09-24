@@ -30,3 +30,5 @@ For other math contest handouts, I recommend:
 * [Yufei Zhao](https://yufeizhao.com/olympiad/)
 * [Canada IMO Training Camp](https://sites.google.com/site/imocanada)
 * [David Altizio](https://www.andrew.cmu.edu/user/daltizio/mathstuff.html)
+
+I was also an [OTIS](https://web.evanchen.cc/otis.html) instructor for a few years. However, I no longer tutor students — teaching is fun, but time-consuming. I still recommend OTIS to any high school students trying to improve at math olympiads (but you should know that having a tutor is neither necessary nor sufficient to do well, and I think the practice you do when no one is around to teach you is far more important).
