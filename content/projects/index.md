@@ -29,7 +29,7 @@ In my free time I like building cool things, usually with code. Here are some of
 	tags="React, p5js, Yjs"
 	website="https://solace.vercel.app/"
 >}}
-<p>A project I made with <a href="https://jonathanxu.com/">Jonathan Xu</a> at <a href="https://hacklodge.org/">Hack Lodge</a>! We wanted to create a peaceful digital space for people to relax. You can click and hold to generate ripples and reveal hidden poems, and if others visit the website at the same time, you can interact with them live. This was also my first time using React for one of my projects. (note: currently not working due to <a href="https://github.com/yjs/yjs-demos/issues/31">this</a>)</p>
+<p>A project I made with <a href="https://jonathanxu.com/">Jonathan Xu</a> at <a href="https://hacklodge.org/">Hack Lodge</a>! We wanted to create a peaceful digital space for people to relax. You can click and hold to generate ripples and reveal hidden poems, and if others visit the website at the same time, you can interact with them live. This was also my first time using React for one of my projects.</p>
 {{< /project >}}
 
 {{< project
