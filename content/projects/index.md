@@ -54,7 +54,7 @@ In my free time I like building cool things, usually with code. Here are some of
 	tags="Django, Bootstrap, PostgreSQL, Heroku"
 	github="https://github.com/CMU-Math/probase"
 >}}
-<p>An online collaborative problem database, for math contest organizers to share math problems. Features problem ratings, comments, sorting, filtering, and searching. Used by <a href="https://cmimc.math.cmu.edu/">CMIMC's</a> problem writing committee to draft questions for the contest. This was also my first time using Django, Bootstrap, and PostgreSQL.</p>
+<p>An online collaborative problem database, for math contest organizers to share math problems. Features problem ratings, comments, sorting, filtering, and searching. Used by <a href="https://cmimc.math.cmu.edu/">CMIMC's</a> problem writing committee to draft questions for the contest. This was also my first time using Django, Bootstrap, and PostgreSQL. Currently working on an improved version <a href="https://github.com/Plasma-Vortex/probase-v2">here</a>.</p>
 {{< /project >}}
 
 {{< project
@@ -79,6 +79,18 @@ In my free time I like building cool things, usually with code. Here are some of
 	googleplay="https://play.google.com/store/apps/details?id=com.StevenAndHoward.Spawn"
 >}}
 <p>A mobile game made by me and Steven Mai during the summer of 2017. It's like a circular version of Breakout, with a bunch of fun powerups! First time using Unity and C#, as well as making any sort of game. It currently has 100+ downloads on the <a href="https://play.google.com/store/apps/details?id=com.StevenAndHoward.Spawn">Google Play Store</a></p>
+{{< /project >}}
+
+{{< project
+	url="https://github.com/Plasma-Vortex/GameAI"
+	img="alphago.png"
+	alt="AlphaGo"
+	title="Implementing AlphaGo"
+	id="alphago"
+	tags="AI, RL, Python, Board Game"
+	github="https://github.com/Plasma-Vortex/GameAI"
+>}}
+<p>Using <a href="https://www.deepmind.com/research/highlighted-research/alphago">AlphaGo's</a> self-play algorithm to train a deep neural network to play other board games, like Connect Four and Othello. The final result always beats me at both games.</p>
 {{< /project >}}
 
 {{< project
