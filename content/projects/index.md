@@ -15,7 +15,7 @@ In my free time I like building cool things, usually with code. Here are some of
 	id="adversarial-2048"
 	tags="Rust, WebAssembly, JavaScript, Game"
 	website="https://www.adversarial2048.com/"
-	github="https://github.com/Plasma-Vortex/adversarial-2048"
+	github="https://github.com/howard36/adversarial-2048"
 >}}
 <p>A spinoff of <a href="https://play2048.co/">2048</a>, modified to be as hard as possible. Made while learning Rust at the <a href="https://www.recurse.com/">Recurse Center</a>. I've never gotten past the 128 tile - let me know if you do! (I'll add a leaderboard if this happens)</p>
 {{< /project >}}
@@ -63,7 +63,7 @@ This was also my first time using React for one of my projects.
 	tags="Django, Bootstrap, PostgreSQL, Heroku"
 	github="https://github.com/CMU-Math/probase"
 >}}
-<p>An online collaborative problem database, for math contest organizers to share math problems. Features problem ratings, comments, sorting, filtering, and searching. Used by <a href="https://cmimc.math.cmu.edu/">CMIMC's</a> problem writing committee to draft questions for the contest. This was also my first time using Django, Bootstrap, and PostgreSQL. Currently working on an improved version <a href="https://github.com/Plasma-Vortex/probase-v2">here</a>.</p>
+<p>An online collaborative problem database, for math contest organizers to share math problems. Features problem ratings, comments, sorting, filtering, and searching. Used by <a href="https://cmimc.math.cmu.edu/">CMIMC's</a> problem writing committee to draft questions for the contest. This was also my first time using Django, Bootstrap, and PostgreSQL. Currently working on an improved version <a href="https://github.com/howard36/probase-v2">here</a>.</p>
 {{< /project >}}
 
 {{< project
@@ -91,13 +91,13 @@ This was also my first time using React for one of my projects.
 {{< /project >}}
 
 {{< project
-	url="https://github.com/Plasma-Vortex/GameAI"
+	url="https://github.com/howard36/GameAI"
 	img="alphago.png"
 	alt="AlphaGo"
 	title="Implementing AlphaGo"
 	id="alphago"
 	tags="AI, RL, Python, Board Game"
-	github="https://github.com/Plasma-Vortex/GameAI"
+	github="https://github.com/howard36/GameAI"
 >}}
 <p>Using <a href="https://www.deepmind.com/research/highlighted-research/alphago">AlphaGo's</a> self-play algorithm to train a deep neural network to play other board games, like Connect Four and Othello. The final result always beats me at both games.</p>
 {{< /project >}}
@@ -122,7 +122,7 @@ This was also my first time using React for one of my projects.
 	id="website"
 	tags="Hugo, TailwindCSS, Javascript, Vercel"
 	website="https://www.howardhalim.com/"
-	github="https://github.com/Plasma-Vortex/personal-website"
+	github="https://github.com/howard36/personal-website"
 >}}
 <p>The website you're currently on. You can see the old version of this website <a href="https://archive.ph/Ch3ce">here</a>.</p>
 {{< /project >}}
@@ -193,13 +193,13 @@ This was also my first time using React for one of my projects.
 {{< /project >}}
 
 {{< project
-	url="https://github.com/Plasma-Vortex/ParticleSimulator"
+	url="https://github.com/howard36/ParticleSimulator"
 	img="particle-simulator.png"
 	alt="Particle Simulator Screenshot"
 	title="Particle Simulator"
 	id="particle-simulator"
 	tags="Interactive, Java, Particles"
-	github="https://github.com/Plasma-Vortex/ParticleSimulator"
+	github="https://github.com/howard36/ParticleSimulator"
 >}}
 <p>A program that simulates the motion of particles under the force of gravity. It's fun to play around with - the center of gravity follows your cursor!</p>
 {{< /project >}}
